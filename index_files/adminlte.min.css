@@ -270,7 +270,10 @@ input {
 
 button,
 select {
-    text-transform: none
+    text-transform: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 [role=button] {
@@ -3007,7 +3010,8 @@ fieldset:disabled a.btn {
     color: #fff;
     background-color: #28a745;
     border-color: #28a745;
-    box-shadow: none
+    box-shadow: none;
+    border-radius: 20px;
 }
 
 .btn-success:hover {
@@ -3091,7 +3095,8 @@ fieldset:disabled a.btn {
     color: #1f2d3d;
     background-color: #ffc107;
     border-color: #ffc107;
-    box-shadow: none
+    box-shadow: none;
+    border-radius: 20px;
 }
 
 .btn-warning:hover {
